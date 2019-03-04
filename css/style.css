@@ -46,3 +46,32 @@ button {
 img {
   max-width: 100%;
 }
+
+/* End General Rules  */
+
+/* Header Rules  */
+
+header {
+  padding: 0.6rem 0.25rem;
+}
+
+header * {
+  outline: none
+}
+
+header h1 {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header button {
+  float: right;
+}
+
+header i {
+  font-size: 1.4rem;
+}
+
+/* End Header Rules  */
