@@ -75,3 +75,28 @@ header i {
 }
 
 /* End Header Rules  */
+
+/* Main Rules  */
+
+main {
+  padding: 0.5rem;
+  background-color: var(--sec-bg);
+  color: var(--black)
+}
+
+#city-selection {
+  width: 95%;
+  margin: 0.5rem auto;
+  font-size: 110%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* Categories Section Rules */
+
+/* EndCategories Section Rules */
+
+/* End Main Rules  */
