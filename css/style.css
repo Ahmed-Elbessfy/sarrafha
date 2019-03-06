@@ -97,7 +97,52 @@ main {
 
 /* Categories Section Rules */
 
-/* EndCategories Section Rules */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11.8rem, 1fr));
+  grid-gap: 1rem;
+  max-width: 77rem;
+  margin: 0.7rem auto;
+  font-size: 1.3rem;
+}
+
+.category {
+  display: grid;
+  position: relative;
+  cursor: pointer;
+}
+
+.category img {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 19px 0px #bdbdbd;
+  -moz-box-shadow: 0 0 19px 0px #bdbdbd;
+  -ms-box-shadow: 0 0 19px 0px #bdbdbd;
+  -o-box-shadow: 0 0 19px 0px #bdbdbd;
+  box-shadow: 0 0 19px 0px #bdbdbd;
+
+}
+
+.category .cat-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.4rem 0;
+  background-color: var(--main-cl);
+  color: var(--black);
+  font-weight: bold;
+  -webkit-border-radius: 0 0 12px 12px;
+  -moz-border-radius: 0 0 12px 12px;
+  -ms-border-radius: 0 0 12px 12px;
+  -o-border-radius: 0 0 12px 12px;
+  border-radius: 0 0 12px 12px;
+}
+
+/* End Categories Section Rules */
 
 /* End Main Rules  */
 
