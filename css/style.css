@@ -86,8 +86,10 @@ main {
 
 #city-selection {
   width: 95%;
+  max-width: 30rem;
   margin: 0.5rem auto;
-  font-size: 110%;
+  padding: 0.5rem 0;
+  font-size: 1.6rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
