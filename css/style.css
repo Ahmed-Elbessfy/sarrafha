@@ -10,7 +10,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  outline: 1px solid #333
 }
 
 html,
@@ -53,10 +52,6 @@ img {
 
 header {
   padding: 0.6rem 0.25rem;
-}
-
-header * {
-  outline: none
 }
 
 header h1 {
@@ -149,9 +144,6 @@ main {
 /* End Main Rules  */
 
 /* Footer Rules */
-footer * {
-  outline: none
-}
 
 footer ul {
   display: grid;
